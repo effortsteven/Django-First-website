@@ -1,5 +1,6 @@
 # from django.http import HttpResponse
 from django.shortcuts import render
+from .models import *
 
 app_name = 'tech'
 
@@ -8,4 +9,5 @@ app_name = 'tech'
 #     return HttpResponse('<h1>my tech page </h1>')
 
 def index(request):
-    return render(request, 'techs/index.html')
+    car_models = CarModel.objects.all()
+    return render(request, 'techs/index.html', {'car_models': car_models})

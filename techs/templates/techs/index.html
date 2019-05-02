@@ -1,5 +1,28 @@
 {% extends 'inner_base.html' %}
 
 {% block content %}
+    <div class="row">
 
+    {% for car_model in car_models %}
+
+        <div class="col-lg-3 col-md-6">
+            <div class="thumbnail no-padding">
+                <div class="thumb">
+                    <img src="{% static 'assets/images/placeholder.jpg' %}" alt="{{ car_model.modelName }}">
+                </div>
+
+                <div class="caption text-center">
+                    <h6 class="text-semibold no-margin">
+                        {{ car_model.modelName }},
+                        {{ car_model.modelMaker }}: {
+                        { car_model.modelYear }}
+                        <small class="display-block">Owner: {{ car_model.modelOwner }}</small>
+                    </h6>
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
+
+    </div>
 {% endblock %}
