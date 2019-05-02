@@ -2173,8 +2173,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/techs/templates/techs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/inner_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4137">
+              <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -2267,11 +2276,6 @@
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
-              <item name="techs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2351,23 +2355,23 @@
       <workItem from="1556182183200" duration="1141000" />
       <workItem from="1556183905086" duration="2601000" />
       <workItem from="1556188688107" duration="6627000" />
-      <workItem from="1556531316214" duration="37226000" />
+      <workItem from="1556531316214" duration="37829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47595000" />
+    <option name="totallyTimeSpent" value="48198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1600" height="859" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7" visible="true" weight="0.12805663" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7" visible="true" weight="0.12805663" />
       <window_info id="Structure" order="1" sideWeight="0.3" side_tool="true" weight="0.12805663" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32947233" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.042796005" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32524964" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2376,7 +2380,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006435" side_tool="true" weight="0.6761769" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4993565" visible="true" weight="0.042796005" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4993565" weight="0.957204" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32729805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2495,13 +2499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/inner_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/techs/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -2519,10 +2516,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/inner_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4137">
+          <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/techs/templates/techs/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
         </state>
       </provider>
     </entry>

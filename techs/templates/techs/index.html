@@ -1,5 +1,7 @@
 {% extends 'inner_base.html' %}
 
+{% load staticfiles %}
+
 {% block content %}
     <div class="row">
 
@@ -14,8 +16,8 @@
                 <div class="caption text-center">
                     <h6 class="text-semibold no-margin">
                         {{ car_model.modelName }},
-                        {{ car_model.modelMaker }}: {
-                        { car_model.modelYear }}
+                        {{ car_model.modelMaker }}:
+                        {{ car_model.modelYear }}
                         <small class="display-block">Owner: {{ car_model.modelOwner }}</small>
                     </h6>
                 </div>
