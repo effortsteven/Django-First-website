@@ -18,7 +18,7 @@ class CarModel(models.Model):
     modelMaker = models.ForeignKey(CarMaker, on_delete=models.CASCADE)
     mileage = models.IntegerField(default=0)
     color = models.CharField(max_length=100, default='black')
-    price = models.IntegerField(default=1000000)
+    price = models.IntegerField(default=100000)
 
     def __str__(self):
         return self.modelName
