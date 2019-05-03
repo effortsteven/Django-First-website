@@ -1,0 +1,42 @@
+{% extends 'inner_base.html' %}
+
+{% load staticfiles %}
+{% block app_title %}
+    {{ app_title }}
+{% endblock %}
+{% block side_manu %}
+    <li>
+        <a href="#"><i class="icon-stack2"></i> <span>Cars</span></a>
+        <ul>
+            <li><a href="{% url 'in_stock_cars' %}">In-stock Cars</a></li>
+        </ul>
+    </li>
+{% endblock %}
+{% block content %}
+    <div class="row">
+
+        {% for car_model in car_models %}
+
+            <div class="col-lg-3 col-md-6">
+                <div class="thumbnail no-padding">
+                    <div class="thumb">
+                        <img src="{% static 'assets/images/placeholder.jpg' %}" alt="{{ car_model.modelName }}">
+                    </div>
+
+                    <div class="caption text-center">
+                        <a href="{% url 'tech_detail' tech_id=car_model.id %}">
+                            <h6 class="text-semibold no-margin">
+                            {{ car_model.modelName }},
+                            {{ car_model.modelMaker }}:
+                            {{ car_model.modelYear }}
+                            <small class="display-block">Owner: {{ car_model.modelOwner }}</small>
+                        </h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        {% endfor %}
+
+    </div>
+{% endblock %}

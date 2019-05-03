@@ -1,0 +1,14 @@
+{% extends 'techs/index.html' %}
+
+{% load staticfiles %}
+{% block content %}
+    {% if car.modelName %}
+    <h2>Car is : {{ car.modelName }}</h2>
+        <h6>Car Maker: {{ car.modelMaker }}</h6>
+        <h6>Car Manufacture year: {{ car.modelYear }}</h6>
+        <h6>Model Owner : {{ car.modelOwner }}</h6>
+        <h6>Mileage : {{ car.mileage }}</h6>
+        <h6>Color : {{ car.color }}</h6>
+        <h6>Price : {{ car.price}}</h6>
+    {% endif %}
+{% endblock %}
